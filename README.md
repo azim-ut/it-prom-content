@@ -1,4 +1,4 @@
 # IT-Prom Content
 
 Euclidean Algorithm
-Implementation azim.algorithm.Euclidean, Test: azim.AlgorithmTests#euclideanTest
+Implementation azim.algorithm.euclidean.Euclidean, Test: azim.AlgorithmTests#euclideanTest

@@ -1,10 +1,10 @@
-package azim.algorithm;
+package azim.algorithm.euclidean;
 
 
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
-public class Euclidean {
+public class GCD {
     private final int a, b;
 
     public int findGCD(){
@@ -17,8 +17,8 @@ public class Euclidean {
 
         int div = Math.abs(a - b);
         if(a > b){
-            return new Euclidean(a - div, div).findGCD();
+            return new GCD(a - div, div).findGCD();
         }
-        return new Euclidean(b - div, div).findGCD();
+        return new GCD(b - div, div).findGCD();
     }
 }

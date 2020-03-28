@@ -1,7 +1,5 @@
 package azim;
 
-import azim.algorithm.Euclidean;
-
 /**
  * Hello world!
  *
