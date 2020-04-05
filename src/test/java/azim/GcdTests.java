@@ -1,8 +1,8 @@
-package azim;
+package itp;
 
-import azim.algorithm.euclidean.GCD;
-import azim.algorithm.euclidean.GCD3;
-import azim.algorithm.euclidean.GCDList;
+import itp.algorithm.euclidean.GCD;
+import itp.algorithm.euclidean.GCD3;
+import itp.algorithm.euclidean.GCDList;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -11,12 +11,9 @@ import java.util.Arrays;
 /**
  * Unit test for simple App.
  */
-public class AlgorithmTests {
-    /**
-     * Rigorous Test :-)
-     */
+public class GcdTests {
     @Test
-    public void gcd2Test() {
+    public void gcdTest() {
         GCD engine = new GCD(375, 192);
         Assert.assertEquals(3, engine.findGCD());
     }

@@ -1,4 +1,4 @@
-package azim.algorithm.euclidean;
+package itp.algorithm.euclidean;
 
 
 import lombok.AllArgsConstructor;
